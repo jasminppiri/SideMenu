@@ -103,7 +103,7 @@ extension SideMenuController {
             public var enableRubberEffectWhenPanning = true
 
             /// If enabled, the menu view will be hidden when the app entering background. The default is false.
-            public var hideMenuWhenEnteringBackground = false
+            public var hideMenuWhenEnteringBackground = true
 
             /// The cache key for the first content view controller.
             public var defaultCacheKey: String?

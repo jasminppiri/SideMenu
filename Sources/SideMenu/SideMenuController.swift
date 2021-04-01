@@ -41,8 +41,8 @@ open class SideMenuController: UIViewController {
     @IBInspectable public var menuSegueID: String = SideMenuSegue.ContentType.menu.rawValue
 
     /// Caching
-    private lazy var lazyCachedViewControllerGenerators: [String: () -> UIViewController?] = [:]
-    private lazy var lazyCachedViewControllers: [String: UIViewController] = [:]
+    public lazy var lazyCachedViewControllerGenerators: [String: () -> UIViewController?] = [:]
+    public lazy var lazyCachedViewControllers: [String: UIViewController] = [:]
 
     /// The side menu controller's delegate object.
     public weak var delegate: SideMenuControllerDelegate?
